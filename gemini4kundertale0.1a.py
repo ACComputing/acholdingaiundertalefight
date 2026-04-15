@@ -982,7 +982,6 @@ while running:
             game_state = STATE_GAME_OVER
 
     if game_state == STATE_INTRO:
-        draw_sans()
         draw_main_menu()
 
     elif game_state == STATE_DIALOGUE:
